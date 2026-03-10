@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Support and help for Plane and Train Crash Tracker app">
+    <title>Support - Plane and Train Crash Tracker</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .icon {
+            font-size: 4em;
+            margin-bottom: 20px;
+        }
+        
+        .content {
+            padding: 40px 30px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section h2 {
+            color: #667eea;
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .section h3 {
+            color: #444;
+            font-size: 1.3em;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+        
+        .section p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+        
+        .section ul, .section ol {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        .section li {
+            margin-bottom: 10px;
+            color: #555;
+        }
+        
+        .contact-box {
+            background: #f8f9ff;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        
+        .contact-box strong {
+            color: #667eea;
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        .faq-item {
+            background: #f8f9ff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .faq-item h3 {
+            color: #667eea;
+            margin-top: 0;
+            font-size: 1.1em;
+        }
+        
+        .button {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 600;
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-top: 10px;
+        }
+        
+        .button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+        
+        .footer {
+            background: #f8f9ff;
+            padding: 30px;
+            text-align: center;
+            color: #666;
+            border-top: 1px solid #e0e0e0;
+        }
+        
+        .footer a {
+            color: #667eea;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        
+        .emoji {
+            font-style: normal;
+        }
+        
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .content {
+                padding: 30px 20px;
+            }
+            
+            .section h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="icon">⚠️✈️🚂</div>
+            <h1>Support Center</h1>
+            <p>Plane and Train Crash Tracker</p>
+        </div>
+        
+        <div class="content">
+            <!-- Getting Started -->
+            <div class="section">
+                <h2><span class="emoji">🚀</span> Getting Started</h2>
+                <p>Thank you for downloading Plane and Train Crash Tracker! Our app helps you stay informed about transportation incidents worldwide with real-time notifications and comprehensive coverage.</p>
+                
+                <h3>First Time Setup</h3>
+                <ol>
+                    <li><strong>Complete Purchase:</strong> Unlock full access with a one-time purchase of $6.99 for lifetime access</li>
+                    <li><strong>Enable Notifications:</strong> Allow push notifications to receive real-time crash alerts</li>
+                    <li><strong>Customize Filters:</strong> Choose which types of incidents you want to be notified about</li>
+                    <li><strong>Select Countries:</strong> Optionally filter notifications by specific countries</li>
+                </ol>
+            </div>
+            
+            <!-- Features -->
+            <div class="section">
+                <h2><span class="emoji">✨</span> Features</h2>
+                
+                <h3>Real-Time Notifications</h3>
+                <p>Get instant push notifications when new plane or train crashes are reported worldwide. Customize your alerts by incident type and country.</p>
+                
+                <h3>Global Coverage</h3>
+                <p>Access comprehensive incident reports from around the world, updated every 5 minutes from trusted news sources.</p>
+                
+                <h3>Custom Filters</h3>
+                <p>Filter incidents by:</p>
+                <ul>
+                    <li>Incident type (plane or train)</li>
+                    <li>Country or region</li>
+                    <li>Severity level</li>
+                    <li>Date range</li>
+                </ul>
+                
+                <h3>Detailed Articles</h3>
+                <p>Read full news articles with comprehensive incident details, including location, severity, and links to original news sources.</p>
+            </div>
+            
+            <!-- FAQ -->
+            <div class="section">
+                <h2><span class="emoji">❓</span> Frequently Asked Questions</h2>
+                
+                <div class="faq-item">
+                    <h3>How do I enable notifications?</h3>
+                    <p>Go to the Notifications tab in the app, then tap "Open Settings" if notifications are disabled. You can also go to iOS Settings → Notifications → Crash Tracker and enable notifications there.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>How often is the data updated?</h3>
+                    <p>Incident data is refreshed automatically every 5 minutes to ensure you have the latest information. You can also manually refresh by pulling down on the incidents list.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Can I filter notifications by country?</h3>
+                    <p>Yes! Go to Notifications tab → Filter by Country, and select the countries you're interested in. If no countries are selected, you'll receive notifications from all countries.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Is this a subscription?</h3>
+                    <p>No! This is a one-time purchase of $6.99 that gives you lifetime access to all features. There are no recurring charges, subscriptions, or hidden fees.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>I purchased on another device. How do I restore?</h3>
+                    <p>Go to Settings tab → Restore Purchase. Use the same Apple ID you used for the original purchase. Your purchase will be restored automatically.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Where does the incident data come from?</h3>
+                    <p>We aggregate incident reports from reputable news sources worldwide using News API. Each incident includes a link to the original news article for verification.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>How do I turn off notifications for specific incident types?</h3>
+                    <p>Go to Notifications tab, then toggle off "Plane Crashes" or "Train Crashes" depending on which alerts you don't want to receive.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Can I use this app offline?</h3>
+                    <p>The app requires an internet connection to fetch the latest incident data. Previously loaded incidents will remain visible when offline, but you won't receive updates until reconnected.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Is my personal data tracked or shared?</h3>
+                    <p>No! We do not track users or collect personal data. The app only collects anonymous crash data for functionality purposes. See our <a href="https://kevinf563.github.io/crash-tracker-legal/privacy.html">Privacy Policy</a> for details.</p>
+                </div>
+            </div>
+            
+            <!-- Troubleshooting -->
+            <div class="section">
+                <h2><span class="emoji">🔧</span> Troubleshooting</h2>
+                
+                <h3>Not Receiving Notifications</h3>
+                <ol>
+                    <li>Check that notifications are enabled in iOS Settings → Notifications → Crash Tracker</li>
+                    <li>Verify your notification preferences in the app's Notifications tab</li>
+                    <li>Make sure you have an active internet connection</li>
+                    <li>Try sending a test notification from the Notifications tab</li>
+                    <li>Restart the app and check notification settings again</li>
+                </ol>
+                
+                <h3>Incidents Not Loading</h3>
+                <ol>
+                    <li>Check your internet connection</li>
+                    <li>Pull down on the incidents list to manually refresh</li>
+                    <li>Try closing and reopening the app</li>
+                    <li>Check if you have any active filters that might be hiding incidents</li>
+                </ol>
+                
+                <h3>Purchase Issues</h3>
+                <ol>
+                    <li>Make sure you're signed in to the App Store with your Apple ID</li>
+                    <li>Check that your payment method is valid in Settings → [Your Name] → Payment & Shipping</li>
+                    <li>Try restarting your device and attempting the purchase again</li>
+                    <li>If you already purchased, tap "Restore Purchase" in Settings</li>
+                    <li>Contact Apple Support for payment-related issues</li>
+                </ol>
+                
+                <h3>App Crashes or Freezes</h3>
+                <ol>
+                    <li>Make sure you're running the latest version of the app</li>
+                    <li>Update to the latest iOS version</li>
+                    <li>Close the app completely and reopen it</li>
+                    <li>Restart your device</li>
+                    <li>If the problem persists, contact us (see below)</li>
+                </ol>
+            </div>
+            
+            <!-- Contact -->
+            <div class="section">
+                <h2><span class="emoji">📧</span> Contact Support</h2>
+                <p>Need additional help? We're here to assist you!</p>
+                
+                <div class="contact-box">
+                    <strong>Email Support:</strong>
+                    <p>Send us an email with your issue, and we'll respond within 24-48 hours.</p>
+                    <a href="mailto:support@crashtracker.app?subject=Crash%20Tracker%20Support%20Request" class="button">Email Support</a>
+                </div>
+                
+                <h3>When Contacting Support, Please Include:</h3>
+                <ul>
+                    <li>Your device model (e.g., iPhone 14 Pro)</li>
+                    <li>iOS version (Settings → General → About)</li>
+                    <li>App version (found in Settings tab)</li>
+                    <li>A detailed description of the issue</li>
+                    <li>Screenshots if applicable</li>
+                </ul>
+                
+                <p><strong>Response Time:</strong> We aim to respond to all support requests within 24-48 hours during business days.</p>
+            </div>
+            
+            <!-- Additional Resources -->
+            <div class="section">
+                <h2><span class="emoji">📚</span> Additional Resources</h2>
+                
+                <h3>Legal & Privacy</h3>
+                <ul>
+                    <li><a href="https://kevinf563.github.io/crash-tracker-legal/privacy.html">Privacy Policy</a> - How we handle your data</li>
+                    <li><a href="https://kevinf563.github.io/crash-tracker-legal/terms.html">Terms of Service</a> - App usage terms and conditions</li>
+                </ul>
+                
+                <h3>Version Information</h3>
+                <p>You can find your current app version in the Settings tab under "Version".</p>
+                
+                <h3>Feedback & Feature Requests</h3>
+                <p>We love hearing from our users! If you have suggestions for new features or improvements, please email us at <a href="mailto:feedback@crashtracker.app">feedback@crashtracker.app</a>.</p>
+            </div>
+            
+            <!-- System Requirements -->
+            <div class="section">
+                <h2><span class="emoji">📱</span> System Requirements</h2>
+                <ul>
+                    <li><strong>iOS:</strong> Requires iOS 17.0 or later</li>
+                    <li><strong>Devices:</strong> Compatible with iPhone and iPad</li>
+                    <li><strong>Internet:</strong> Active internet connection required for data updates</li>
+                    <li><strong>Storage:</strong> Approximately 50 MB</li>
+                </ul>
+            </div>
+            
+            <!-- Thank You -->
+            <div class="section" style="text-align: center; margin-top: 50px;">
+                <h2><span class="emoji">🙏</span> Thank You!</h2>
+                <p>Thank you for using Plane and Train Crash Tracker. We're committed to providing you with accurate, timely information about transportation incidents worldwide.</p>
+                <p style="margin-top: 20px; color: #667eea; font-weight: 600;">Stay informed. Stay safe.</p>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p><strong>Plane and Train Crash Tracker</strong></p>
+            <p>Version 1.0 | © 2026</p>
+            <p style="margin-top: 15px;">
+                <a href="https://kevinf563.github.io/crash-tracker-legal/privacy.html">Privacy Policy</a>
+                <a href="https://kevinf563.github.io/crash-tracker-legal/terms.html">Terms of Service</a>
+                <a href="mailto:support@crashtracker.app">Contact</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
